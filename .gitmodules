@@ -1,0 +1,3 @@
+[submodule "j1c-cv"]
+	path = j1c-cv
+	url = git@github.com:j1c/j1c-cv.git
