@@ -3,6 +3,7 @@ github_users:
 
 github_repos:
   - microsoft/graspologic
+  - neurodata/hyppo
   - neurodata/sporf
   - dipy/dipy
   - neurodata/m2g
