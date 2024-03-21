@@ -99,6 +99,17 @@
                 <a class="nav-link" href="{{ '/assets/pdf/j1c-cv.pdf' | relative_url }}">vitae</a>
               </li>
 
+              <!-- Talks -->
+              {% if site.show_talks %}
+              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/talks/' | relative_url }}">{{ talks }}
+                  {%- if page.url contains 'talks' -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+              {%- endif -%}
+
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
